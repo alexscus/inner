@@ -155,7 +155,6 @@ h1,h2 { font-weight: normal;}
   background-color: #fecf0a;
   border-radius: 50%;
 }
-
 .text-list-ol {
 	list-style: none;
 	counter-reset: point;
@@ -175,9 +174,6 @@ h1,h2 { font-weight: normal;}
 	color: #fecf0a;
 	text-align: center;
 }
-
-
-
 .m-auto {
   margin: 0 auto;
 }
@@ -702,8 +698,6 @@ h1,h2 { font-weight: normal;}
   display: flex;
   justify-content: space-between;
 }
-
-
 .inner-block_paintings-to-order {
   background:#000 url("../img/details/photo1717744118.webp") no-repeat center top;
   background-size: cover;
@@ -730,19 +724,6 @@ h1,h2 { font-weight: normal;}
   border-radius: 15px;
   background-color: rgba(59,59,59,.9);
 }
-/* .text-modul h1 {
-  font-size: 30px;
-}
-.text-modul h2 {
-  font-size: 28px;
-}
-.text-modul h3 {
-  font-size: 26px;
-}
-.text-modul p {
-  font-size: 18px;
-} */
-
 .phone-a {
   position: relative;
   width: 262px;
@@ -1044,6 +1025,10 @@ h1,h2 { font-weight: normal;}
   .main-block__contacts {
     width: 1170px;
   }
+  .inner-block__content {
+    width: 1172px;
+    margin: 0 auto;
+  }
   .inner-block__contacts {
     width: 1170px;
   }
@@ -1150,8 +1135,8 @@ h1,h2 { font-weight: normal;}
     flex-direction: column;
   }
   .inner-block__contacts {
+    padding: 0;
     order: 2;
-    margin-top: 20px;
     flex-direction: row-reverse;
   }
   .framing-workshop {
