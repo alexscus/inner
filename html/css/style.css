@@ -154,6 +154,10 @@ h1,h2 { font-weight: normal;}
   height: 10px;
   background-color: #fecf0a;
   border-radius: 50%;
+  animation: list-circle 2s infinite;
+}
+.text-list li:hover:after {
+  animation-play-state: paused;
 }
 .text-list-ol {
 	list-style: none;
@@ -242,6 +246,17 @@ h1,h2 { font-weight: normal;}
   }
   100%{
       transform: translateY(2px);
+  }
+}
+@keyframes list-circle {
+  0%{
+      transform: translateX(2px);
+  }
+  50%{
+      transform: translateX(0px);
+  }
+  100%{
+      transform: translateX(2px);
   }
 }
 .arrow {
