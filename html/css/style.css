@@ -1531,9 +1531,11 @@ h1,h2 { font-weight: normal;}
     display: flex;
     justify-content: flex-end;
   }
-  .inner-block__content,
-  .inner-block__text {
+  .inner-block__content {
     padding: 20px;
+  }
+  .inner-block__text {
+    padding: 40px 20px 20px;
   }
   .inner-block__contacts {
     flex-direction: column-reverse;
