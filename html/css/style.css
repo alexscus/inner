@@ -193,7 +193,7 @@ h1,h2 { font-weight: normal;}
   background-size: 200%;
   background-position: 0 0;
   display: inline;
-  transition: 0.5s ease-in-out;
+  transition: 2s ease-in-out;
 }
 .m-auto {
   margin: 0 auto;
